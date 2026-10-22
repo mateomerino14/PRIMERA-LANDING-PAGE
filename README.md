@@ -1,74 +1,54 @@
-==========LANDING PAGE - ACADEMIA DIGITAL PRO==========
+# Landing page · Academia Digital Pro
 
-====DESCRIPCIÓN====
-Landing page profesional diseñada para promocionar "Academia Digital Pro", una plataforma educativa que enseña a emprendedores cómo crear y vender cursos online exitosos en 90 días. La página está diseñada para maximizar conversiones y proporcionar una experiencia de usuario moderna y atractiva.
+Landing page de un programa ficticio de 12 semanas para crear y publicar un primer curso online. Su objetivo es que la persona entienda en qué consiste el programa y reserve su lugar en la próxima cohorte.
 
-====CARACTERÍSTICAS PRINCIPALES====
+## Secciones
 
-----DISEÑO Y ESTILOS----
--Diseño moderno con gradientes dinámicos y efectos visuales avanzados
--Fondo animado con esferas de luz (gradient orbs) que flotan suavemente
--Tipografía personalizada con Google Fonts (Bebas Neue e Inter)
--Esquema de colores vibrantes (rosa, púrpura, celeste) con gradientes
--Efectos glassmorphism (cristal) en tarjetas y elementos
--Animaciones suaves al hacer scroll
--Diseño completamente responsivo (mobile-first)
+| Sección | Contenido |
+|---|---|
+| Portada | Propuesta del programa, acceso a la inscripción y tres datos clave: duración, horario de las clases y reembolso |
+| Programa | Las cuatro etapas del programa en orden, con las semanas que dura cada una |
+| Primera clase | Video embebido de YouTube con la clase de la semana 1 |
+| Qué incluye | Clases en vivo, revisión del material, plantillas y grupo de la cohorte |
+| Inscripción | Formulario con validación y mensaje de confirmación |
 
-----ESTRUCTURA HTML----
--Header fijo con logo y efecto blur
--Sección hero con badge, título impactante y subtítulo
--Video contenedor con iframe de YouTube embebido
--Botones CTA (Call to Action) con efectos hover
--Sección de estadísticas (4 cards con datos clave)
--Sección de beneficios (6 cards con iconos y descripciones)
--Sección final CTA con mensaje de urgencia
--Footer con enlaces legales
+## Diseño
 
-----FUNCIONALIDADES JAVASCRIPT----
--Scroll suave para enlaces internos (navegación por anclas)
--Intersection Observer para animaciones al hacer scroll
--Las tarjetas aparecen con fade-in y desplazamiento al ser visibles
--Efectos hover en botones y tarjetas
+- **Tipografía:** Alegreya para los títulos y Alegreya Sans para el texto. Son de la misma familia, así que combinan sin competir entre sí.
+- **Colores:** fondo claro, texto verde muy oscuro, la sección del programa en verde pizarra y amarillo lápiz para botones y detalles.
+- **Fotos:** tres fotos de Unsplash enlazadas desde su servidor, con el crédito de cada autor en el pie de página.
+- **Movimiento:** solo la foto de la portada aparece con una transición al cargar, y se desactiva si el sistema pide menos movimiento.
+- **Adaptable:** las columnas pasan a una sola en tabletas y celulares.
 
-----ANIMACIONES CSS----
--Keyframes para movimiento de esferas de fondo
--Animación de entrada para header (slideDown)
--FadeInUp para elementos principales
--Efecto pulse en mensaje de urgencia
--Transiciones suaves en hover effects
+## Funcionalidad
 
-====TECNOLOGÍAS UTILIZADAS====
+- Navegación con desplazamiento suave entre secciones, compensando la cabecera fija.
+- Formulario de inscripción que valida el nombre y el correo, marca el campo con error y muestra una confirmación con los datos ingresados. No envía datos a ningún servidor.
+- Foco visible para navegar con teclado.
 
--HTML5
--CSS3 (con variables CSS, flexbox, grid, keyframes)
--JavaScript (vanilla, sin frameworks)
--Google Fonts (Bebas Neue, Inter)
--YouTube iframe API
+## Tecnologías
 
-====ESTRUCTURA DE ARCHIVOS====
+- HTML5
+- CSS3 (variables, grid, flexbox, contadores y media queries)
+- JavaScript sin frameworks
+- Google Fonts (Alegreya y Alegreya Sans)
 
--index.html          # Estructura principal de la página
--styles.css          # Todos los estilos y animaciones
--script.js           # Funcionalidades JavaScript
--README.md           # Este archivo
+## Ejecución
 
-====CARACTERÍSTICAS DE DISEÑO====
+Abrir `index.html` en el navegador. No necesita instalación.
 
-----PALETA DE COLORES----
--#FF3366 (Rosa/primary)
--#7C3AED (Púrpura/secondary)
--#0F0F23 (Azul oscuro/fondo)
--#00F5FF (Celeste/accent)
--#F8F9FA (Blanco/light)
+## Estructura
 
-----COMPONENTES DESTACADOS----
--Tarjetas con efecto glassmorphism y bordes translúcidos
--Botones con gradientes y efecto shine al hover
--Esferas de fondo animadas con blur
--Video container con sombras y glow
--Contadores estadísticos con gradiente de texto
--Rejilla de beneficios responsive
+```
+index.html   Estructura y contenido de la página
+styles.css   Estilos, paleta y diseño adaptable
+script.js    Validación y confirmación del formulario
+```
 
-====LICENCIA====
+## Créditos
 
--Este proyecto está bajo la Licencia MIT.
+Fotos de [Vitaly Gariev](https://unsplash.com/photos/woman-recording-video-with-camera-in-living-room-F9gWctom-pI), [Fa Barboza](https://unsplash.com/photos/person-in-gray-dress-shirt-writing-on-white-paper-Lf3S2zRXKXk) y [Look Studio](https://unsplash.com/photos/a-woman-sitting-on-a-couch-using-a-laptop-computer-pccGXVm8XVM) en Unsplash.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT.
