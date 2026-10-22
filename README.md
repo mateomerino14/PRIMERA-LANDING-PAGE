@@ -8,7 +8,7 @@ Landing page de un programa ficticio de 12 semanas para crear y publicar un prim
 |---|---|
 | Portada | Propuesta del programa, acceso a la inscripción y tres datos clave: duración, horario de las clases y reembolso |
 | Programa | Las cuatro etapas del programa en orden, con las semanas que dura cada una |
-| Primera clase | Video embebido de YouTube con la clase de la semana 1 |
+| Video | Video embebido de YouTube para conocer más antes de inscribirse |
 | Qué incluye | Clases en vivo, revisión del material, plantillas y grupo de la cohorte |
 | Inscripción | Formulario con validación y mensaje de confirmación |
 
